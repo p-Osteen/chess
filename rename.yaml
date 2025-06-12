@@ -1,0 +1,8 @@
+package_rename_config:
+  android:
+    app_name: "Chess"
+    package_name: "com.chess.android"
+
+  windows:
+    app_name: "Chess"
+    exe_name: "chess_game"
