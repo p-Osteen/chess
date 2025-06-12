@@ -20,7 +20,7 @@ A sleek, fully functional **Flutter chess game** with AI support, built using `G
 The AI difficulty can be set before the game starts via:
 
 ```dart
-controller.setDifficulty(Difficulty.easy); // .beg, .intm, .exp
+controller.setDifficulty(Difficulty.beg); // .beg, .intm, .exp
 ```
 
 ⚠️ Cannot be changed during an active game.
