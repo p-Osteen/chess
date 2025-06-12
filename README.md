@@ -1,16 +1,38 @@
-# chess_game
+# ♟️ Flutter Chess Game with AI (GetX + Chess Engine)
 
-A new Flutter project.
+A sleek, fully functional **Flutter chess game** with AI support, built using `GetX` for state management and the `chess` Dart package for game logic. This app features smart move validation, game-over alerts, and visually tracks captured pieces for both players.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🔥 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎮 Tap-to-move chess gameplay
+- 🤖 Play vs AI (3 difficulty levels)
+- ✨ Smooth UI with square highlights and animations
+- 🚨 Real-time "Check!" and "Game Over" alerts
+- 👑 Automatic pawn promotion (Queen)
+- ♟️ Captured piece display (Black on left, White on right)
+- 🧠 Reactive state management with GetX
+- 🧪 Built with `chess` Dart package for FIDE-compliant rules
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎯 AI Difficulty
+
+The AI difficulty can be set before the game starts via:
+
+```dart
+controller.setDifficulty(Difficulty.easy); // .easy, .beg, .med
+```
+
+⚠️ Cannot be changed during an active game.
+
+## ✨ To Do
+
+- [ ] Undo / Redo functionality
+- [ ] Stockfish integration
+- [ ] Chess clocks
+- [ ] UI themes (dark/light/retro)
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
