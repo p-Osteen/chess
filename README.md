@@ -1,16 +1,25 @@
-# chess_game
+# ♟️ Flutter Chess Game with AI
 
-A new Flutter project.
+A fully functional chess game built using **Flutter** and **GetX**, powered by the `chess` Dart package for game logic and a custom AI opponent. Includes visual highlights for moves, check alerts, game-over messages, and displays captured pieces for both White and Black players.
 
-## Getting Started
+## 🎯 Features
 
-This project is a starting point for a Flutter application.
+- ✅ Tap-to-move chess gameplay
+- ♟️ AI opponent (configurable difficulty)
+- 💡 Highlights possible moves and selected square
+- 🔔 Real-time check and game-over notifications
+- 🏁 Automatic pawn promotion to queen
+- 📦 Captured pieces UI (Black on left, White on right)
+- 🔄 Game reset & difficulty management
+- 🧠 GetX-based reactive state management
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Layer            | Tech            |
+|------------------|-----------------|
+| UI               | Flutter         |
+| State Management | GetX            |
+| Game Logic       | `chess` package |
+| AI Logic         | Custom Dart AI  |
+
